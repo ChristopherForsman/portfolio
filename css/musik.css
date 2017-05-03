@@ -1,0 +1,116 @@
+
+body {
+	background-image: url("../img/grand.jpg");
+    background-color: black;
+
+    background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#42414f+0,161616+60 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,282033+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left, #000000 0%, #282033 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #000000 0%,#282033 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #000000 0%,#282033 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#282033',GradientType=1 ); /* IE6-9 */
+}
+
+li {
+   float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	color: white;
+	text-shadow: 2px 2px black;
+	
+}
+
+td, th {
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    
+}
+.col-sm-5 {border: 3px solid purple;
+		 border-radius: 12px;
+		 
+}
+.col-sm-6 {border: 3px solid purple;
+		 border-radius: 12px;
+		max-height:;
+}
+img {
+    border: 2px solid purple;
+    border-radius: 4px;
+    padding: 0px;
+    width: auto;
+	float: left;
+}
+.box {
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,73579b+23,ffeafa+100 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(115,87,155,1) 23%, rgba(255,234,250,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(115,87,155,1) 23%,rgba(255,234,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(115,87,155,1) 23%,rgba(255,234,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffeafa',GradientType=1 ); /* IE6-9 */
+border: 3px solid purple;
+border-radius: 12px;
+width: auto;
+
+text-shadow: 2px 2px black;
+}
+.rubrik {color: white}
+.text {font-size: 30px;
+		color: white}
+		
+}
+.rubrik2 {color: white
+		font-size: 25px;
+}
+		
+.text {font-size: 25px;
+		color: white}
+.text_2 {font-size: 15px;
+		color: white}
+
+.purpleBg {
+	background: #ffeafa; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffeafa 0%, #73579b 77%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #ffeafa 0%,#73579b 77%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #ffeafa 0%,#73579b 77%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeafa', endColorstr='#000000',GradientType=1 );
+}
+.purpleBe {
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(115,87,155,1) 23%, rgba(255,234,250,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(115,87,155,1) 23%,rgba(255,234,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(115,87,155,1) 23%,rgba(255,234,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffeafa',GradientType=1 ); /* IE6-9 */
+}
